@@ -1,0 +1,87 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    width: all;
+    height: 130px;
+    background-color: #363535;
+}
+#header_ust_alani{
+    width: all;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+}
+#header_alt_alani_paragraf{
+    width: 320px;
+    height: 20px;
+    border: 1px solid black;
+    display: inline-block;
+    margin: auto;
+}
+#header_alt_alani_paragraf p{
+    color: #E2E0E0;
+    margin-top: 0px
+    
+}
+#header_ust_alani_kapsayici a{
+    text-decoration: none;
+    color: #E2E0E0;
+}
+#header_ust_alani_kapsayici{
+    float: right;
+    margin-top: 5px;
+    width: 200px;
+    height: 20px;
+    background-color: #363535;
+}
+#header_alt_alani{
+    display: flex;
+    justify-content: space-around;
+    width: all;
+    height: 80px;
+    background-color: #363535;
+}
+#header_alt_alani_logo{
+    width: 100px;
+    height: 80px;
+}
+#header_alt_alani_logo img {
+    width: 100px;
+    height: 80px;
+}
+#header_alt_alani_menu_listesi{
+    width: 570px;
+    height: 80px;
+    display: flexbox;
+    flex-direction: row-reverse;
+}
+#header_alt_alani_menu_listesi a{
+    text-decoration: none;
+    color: #E2E0E0;
+}
+#header_alt_alani_menu_listesi div{
+    width: 80px;
+    height: 30px;
+    display: inline-block;
+    margin-top: 30px;
+}
+#header_alt_alani_sosyal_medya{
+    width: 200px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+
+}
+#header_alt_alani_sosyal_medya div{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+}
+#header_alt_alani_sosyal_medya a{
+    text-decoration: none;
+    font-size: 30px;
+    color: #E2E0E0;
+}
